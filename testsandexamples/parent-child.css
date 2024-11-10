@@ -1,0 +1,17 @@
+/*In CSS, you can style child elements based on their parent. 
+For example:*/
+
+.parent {
+    background-color: lightblue;
+}
+
+.parent .child {
+    color: red;
+}
+
+/*Here, the CSS styles:
+
+The parent (.parent) background color will be light blue.
+The child (.parent .child) text color will be red.
+This structure lets you control how elements look based 
+on where they appear in the HTML hierarchy.*/

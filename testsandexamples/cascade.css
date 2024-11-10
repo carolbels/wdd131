@@ -1,0 +1,36 @@
+/* Order of CSS rules can affect the result due to the cascade 
+and specificity principles in CSS.
+Here are key factors to consider about order in CSS:
+
+Cascade and Specificity: If multiple CSS rules target the same element, 
+the order and specificity of the rules determine which styles are applied. 
+CSS rules that appear later in the code will override earlier ones if they 
+have the same specificity. However, if a later rule is less specific, 
+it won't override a more specific earlier rule.
+
+Inheritance and Initial Values: The order matters when properties are 
+set in a parent element and expected to inherit to child elements. 
+If you redefine an inherited property later in the code for a specific 
+child element, that change will override the parent's inherited style.
+
+Order of Shorthand Properties: Within a single CSS rule, if you list 
+conflicting shorthand properties (like margin and margin-top), 
+the order matters. Later properties in the same rule will override 
+previous ones.
+
+
+This rule will be overridden by the next one */
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+h1 {
+    color: red; /* This will apply since it comes after the previous rule */
+    font-size: 24px;
+}
+ /*In the example above, the h1 element will be red because the 
+ second color property overwrites the first one.
+So while CSS is flexible, the order can be crucial in getting 
+the intended styling, especially when working with multiple styles 
+targeting the same elements.*/
