@@ -1,0 +1,18 @@
+/* Source: https://web.dev/articles/responsive-web-design-basics#how_to_choose_breakpoints
+Images
+An image with fixed dimensions causes the page to scroll if it's larger than the viewport. 
+We recommend giving all images a max-width of 100%, which shrinks images to fit the available space while preventing them from stretching beyond their initial size.
+
+In most cases, you can do this by adding the following to your style sheet:
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* 
+Add the dimensions of the image to the img element
+Even when you set max-width: 100%, we still recommend adding width and height attributes to your <img> tags 
+so the browser can reserve space for images before they load. This helps prevent layout shifts. 
+*/

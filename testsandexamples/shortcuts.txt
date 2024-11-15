@@ -1,0 +1,6 @@
+- Comments CSS and HTML:
+    The keyboard shortcut to comment out a line of HTML or CSS is Ctrl + / 
+
+- Basic-layout.html:
+    Consider using an Emmet shortcut in VS Code by typing html5 or just an ! 
+    and then hit the tab key on a blank screen in the HTML document. This action will build a core HTML structure.

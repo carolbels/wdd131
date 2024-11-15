@@ -1,0 +1,24 @@
+<!-- source: https://web.dev/articles/responsive-web-design-basics#how_to_choose_breakpoints 
+Media queries are simple filters that you can apply to CSS styles, to change those styles based on the types of device rendering the content. 
+They can also change styling based on device features including width, height, orientation, and whether the device is being used as a touchscreen.
+
+To provide different styles for printing, you can target an output type and include a style sheet for print styles: -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    …
+    <link rel="stylesheet" href="print.css" media="print">
+    …
+  </head>
+  …
+
+<!-- You can also use a media query to include print styles in your main style sheet:
+
+Note: You can also include separate stylesheets in your main CSS file using the @import syntax, 
+@import url(print.css) print;. However, we don't recommend this for performance reasons.  
+-->
+
+@media print {
+    /* print styles go here */
+}
