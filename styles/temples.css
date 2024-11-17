@@ -89,9 +89,11 @@ main {
     max-width: 100%;
     justify-items: center;
 }
+
 .photos {
     display: grid;             
-}
+} 
+
 
 figure {
     /* Layout the main column figure elements using CSS Grid. In the mobile view, there should only be one (1) column */
