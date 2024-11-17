@@ -1,3 +1,5 @@
+This course requires that all image files be optimized for the web at <= 125 kB.
+
 Optimizing an image for a webpage is crucial to ensure that it loads 
 quickly and doesn’t slow down your site. Here’s a step-by-step guide 
 on how to optimize images effectively:
