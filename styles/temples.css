@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    /* Use your own color schema */
+    --color1: rgb(223, 242, 235);
+    --color2: rgb(185, 229, 232);
+    --color3: rgb(122, 178, 211);
+    --color4: rgb(74, 98, 138);
+
+    /* Use your own typography choice by using the Google Fonts API service to select one or two fonts to use on the page. */
+    --font1: "Averia Serif Libre", serif;
+    --font2: "Nunito", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    background-color: var(--color4);
+    font-family: var(--font1);
+}
+
+h1 {
+    color:white;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+h2 {
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+figcaption {
+    font-family: var(--font2);
+    padding-bottom: 15px;
+}
+
+nav {
+    /* Use CSS Flex on the navigation nav */
+    margin: 0;
+    max-width:1200px;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    font-family: var(--font2);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    /* The navigation must employ a hover affect. See the CodePen above for an example. */
+    color: yellow;
+}
+
+#navigation-menu {
+    display: none;
+    flex-direction: column;
+    gap: 0.5px;
+    background-color: var(--color4);
+    padding: 10px;
+    position: absolute;   
+}
+
+#navigation-menu.active {
+    display: flex;
+    color: yellow
+}
+
+main {
+    /* The main element has a limited width and is centered on the screen horizontally. */
+    margin:0;
+    max-width: 100%;
+    justify-items: center;
+}
+.photos {
+    display: grid;             
+}
+
+figure {
+    /* Layout the main column figure elements using CSS Grid. In the mobile view, there should only be one (1) column */
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap:10px;
+}
+
+footer {
+    background-color: var(--color1);
+    text-align: center;
+    padding: 10px;
+}
+
+

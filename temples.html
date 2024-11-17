@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- In the temples.html document, include the standard HTML document and <head> elements.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Album - Temples</title>
+    <meta name="description" content="Photos of different temples around the world">
+    <meta name="author" content="Carol Aquino">
+    <!-- Add links to the CSS files in the proper order to support mobile first dev. -->
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <!-- Add a deferred <script> reference to the JavaScript file. -->
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <!-- In the <body>, create a basic layout using a header, a main, and a footer as main line elements. -->
+        <header>
+            <!-- The <header> element contains:
+            a heading that matches up with the title, and a <nav> menu with the following text links:
+            Home Old New Large Small -->
+            <h1>Picture Album - Temples</h1>
+            <!-- Apply a responsive hamburger effect to your existing navigation menu using JavaScript.
+            The hamburger button should only show in the mobile view. -->
+            <button id="hamburger-button" aria-label="Toggle navigation">&#9776;</button>
+            <nav>
+                <ul id="navigation-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Old</a></li>
+                    <li><a href="">New</li></a>
+                    <li><a href="">Large</li></a>
+                    <li><a href="">Small</li></a> 
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+        <!-- The <main> element contains the following: -->
+            <!-- a heading element with content matches the current menu selection, 
+             at least (9) <figure> elements with temple images and captions. Use the built in figure captions elements and name the temple.-->
+            <h2>Home</h2>
+            <div class="photos">
+                <Figure>
+                    <img src="images/Sao-Paulo-Brazil.jpg" alt="São Paulo - Brazil Temple" loading="lazy" width="320" height="213">
+                    <figcaption>São Paulo - Brazil Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/campinas-brazil.jpeg" alt="Campinas - Brazil Temple" loading="lazy" width="320" height="213">
+                    <figcaption>Campinas - Brazil Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/provo-utah.jpeg" alt="Provo - Utah Temple" loading="lazy" width="320" height="213">
+                    <figcaption>Provo - Utah Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/salt-lake-city-utah.jpeg" alt="Salt Lake City - Utah Temple" loading="lazy" width="320" height="213">
+                    <figcaption>Salt Lake City - Utah Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/san-antonio-texas.jpeg" alt="San Antonio - Texas Temple" loading="lazy" width="320" height="213">
+                    <figcaption>San Antonio - Texas Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/mcallen-texas.jpeg" alt="Mcallen - Texas Temple" loading="lazy" width="320" height="213">
+                    <figcaption>Mcallen - Texas Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/ogden-utah.jpeg" alt="Ogden - Utah Temple" loading="lazy" width="320" height="213">
+                    <figcaption>Ogden - Utah Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/fortaleza-brazil.jpeg" alt="Fortaleza - Brazil Temple" loading="lazy" width="320" height="213">
+                    <figcaption>Fortaleza - Brazil Temple</figcaption>
+                </Figure>
+                <Figure>
+                    <img src="images/manaus-brazil.jpeg" alt="Manaus - Brazil Temple" loading="lazy" width="320" height="213">
+                    <figcaption>Manaus - Brazil Temple</figcaption>
+                </Figure>
+            </div>  
+        </main>
+        
+        <footer>
+        <!-- The <footer> contains the same dynamic and static information found on your home page from last week -->
+            <p>&copy; <span id="current-year"></span> &#128105; Carolina Aquino &#128105; USA</p>
+            <p>Last modified: <span id="last-modified"></span></p>
+        </footer>
+</body>
+</html>
