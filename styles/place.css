@@ -67,11 +67,6 @@ footer {
         font-weight: 800;
         font-size: 5rem;
     }
-
-    .hero {
-        background: center/cover no-repeat;
-        width: 100%;
-    }
     
     .cards {
       flex-direction: column;
