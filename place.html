@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Maldives</title>
+    <meta name="description" 
+    content="Interesting information about The Maldives">
+    <meta name="author" content="Carolina Aquino">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Maldives</h1>
+        <img class="hero"
+            src="images/hero-small.webp"
+            alt="photo of a beautiful beach and some bangalos in The Maldives"
+            srcset="
+                images/hero-small.webp 1275w,
+                images/hero-large.webp 1920w"
+            sizes="(max-width: 768px) 100vw, 1920px"
+            loading="lazy">
+    </header>
+    <main>
+        <section class="cards">
+            <h2>Data</h2>
+            <ul class="info">
+                <li>Area: 300km²</li>
+                <li>Population: 392,473</li>
+                <li>Languages: Dhivehi or Maldivian</li>
+                <li>Currency: Maldivian Rufiyaa (MVR)</li>
+                <li>Time Zone: 	UTC+5</li>
+                <li>Calling Code: +960</li>
+                <li>Internet TLD: .mv</li>
+            </ul>
+        </section>
+        <section class="cards">
+            <h2>Weather</h2>
+            <img src="images/weather-icon.svg" alt="icon of a sun and a cloud with the intention of ilustrating the weather">
+            <ul class="weather">
+                <li>Temperature: 27°C</li>
+                <li>Conditions: Cloudy</li>
+                <li>Wind: 11km/h</li>
+                <li>Wind Chill: </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> &#128105; Carolina Aquino &#128105; The Maldives</p>
+        <p>Last modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>

@@ -4,3 +4,12 @@
 - Basic-layout.html:
     Consider using an Emmet shortcut in VS Code by typing html5 or just an ! 
     and then hit the tab key on a blank screen in the HTML document. This action will build a core HTML structure.
+
+- Emojis:
+    The new emoji keyboard in Windows 11 lets you express yourself like never before. To use it:
+
+    During text entry, type Windows logo key  + . (period). The emoji keyboard will appear.
+
+    Select an emoji with the mouse, or keep typing to search through the available emojis for one you like.
+
+    For more ways to express yourself, choose from GIFs and Kaomoji too!

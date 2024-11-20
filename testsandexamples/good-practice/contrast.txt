@@ -1,0 +1,9 @@
+What is the ratio? Is that good or bad?
+The contrast ratio was 2.14 for #777 and #702963. 
+🙁This is not good. Specifically, it fails WCAG 2.0 
+and 2.1 (Web Content Accessibility Guidelines)
+
+use https://www.siegemedia.com/contrast-ratio?ref=frontendchecklist#%23777-on-%23702963
+to check the contrast.
+
+the ideal number is above 4:5

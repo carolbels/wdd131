@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --font: "Nunito", serif;
+    
+    --color1: rgb(196, 20, 50);
+    --color2: rgb(0, 132, 61);
+    --color3: white;    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+.hero {
+    background: url('images/hero-small.webp') center/cover no repeat;
+    width: 100%;
+    border-bottom: solid var(--color1) 0.5rem;
+    position: relative;
+}
+
+h1 {
+    font-weight: 400;
+    color: var(--color3);
+    background-color: var(--color1);
+    text-align: center;
+    border-bottom: solid var(--color2) 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid rgba(230, 111, 111, 0.507);
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.cards img {
+    width: 8rem;    
+}
+
+.info, .weather {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(148, 14, 36);
+    color: var(--color3);
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    h1  {
+        font-weight: 800;
+        font-size: 5rem;
+    }
+
+    .hero {
+        background: center/cover no-repeat;
+        width: 100%;
+    }
+    
+    .cards {
+      flex-direction: column;
+      background-color:rgba(247, 243, 243, 0.9);
+      max-width: 300px;
+      position: absolute;
+    }
+    
+    .cards:first-of-type {
+        top: 200px;
+        left: 20px;
+    }
+
+    .cards:last-of-type {
+        position: absolute;
+        bottom: 100px;
+        right: 20px;
+    }
+
+    .cards:last-of-type h2::after {
+        content: "⛅";
+        opacity: 0.8;
+        font-size: 2rem;
+        margin-left: 10px;
+
+    }
+        
+    h2 {
+        background-color: var(--color2);
+        width: 15rem;
+        color: var(--color3);
+    }
+
+    .cards img {
+        display: none;
+    }
+
+    .info, .weather {
+        margin-top: 10px;
+    }
+    
+    
+
+
+}
