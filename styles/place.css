@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
     --font: "Nunito", serif;
-    
+
     --color1: rgb(196, 20, 50);
     --color2: rgb(0, 132, 61);
     --color3: white;    
@@ -15,7 +16,7 @@
 }
 
 .hero {
-    background: url('images/hero-small.webp') center/cover no repeat;
+    
     width: 100%;
     border-bottom: solid var(--color1) 0.5rem;
     position: relative;
