@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- In the temples.html document, include the standard HTML document and <head> elements.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Album - Temples</title>
+    <meta name="description" content="Photos of different temples around the world">
+    <meta name="author" content="Carol Aquino">
+    <!-- Add links to the CSS files in the proper order to support mobile first dev. -->
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-lg.css">
+    <!-- Add a deferred <script> reference to the JavaScript file. -->
+    <script src="scripts/filtered-temple.js" defer></script>
+</head>
+<body>
+    <!-- In the <body>, create a basic layout using a header, a main, and a footer as main line elements. -->
+        <header>
+            <!-- The <header> element contains:
+            a heading that matches up with the title, and a <nav> menu with the following text links:
+            Home Old New Large Small -->
+            <h1>Picture Album - Temples</h1>
+            <!-- Apply a responsive hamburger effect to your existing navigation menu using JavaScript.
+            The hamburger button should only show in the mobile view. -->
+            <button id="hamburger-button" aria-label="Toggle navigation">&#9776;</button>
+            <nav>
+                <ul id="navigation-menu">
+                    <li><a href="" id="home">Home</a></li>
+                    <li><a href="" id="old">Old</a></li>
+                    <li><a href="" id="new">New</a></li>
+                    <li><a href="" id="large">Large</a></li>
+                    <li><a href="" id="small">Small</a></li> 
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+        <!-- The <main> element contains the following: -->
+            <!-- a heading element with content matches the current menu selection, 
+             at least (9) <figure> elements with temple images and captions. Use the built in figure captions elements and name the temple.-->
+            <h2>Home</h2>
+            <div class="photos">
+               
+            </div>  
+        </main>
+        
+        <footer>
+        <!-- The <footer> contains the same dynamic and static information found on your home page from last week -->
+            <p>&copy; <span id="current-year"></span> &#128105; Carolina Aquino &#128105; USA</p>
+            <p>Last modified: <span id="last-modified"></span></p>
+        </footer>
+</body>
+</html>
