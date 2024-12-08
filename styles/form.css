@@ -65,6 +65,7 @@ label[for="productName"]{
 }
   
 form input[type="date"],
+form input[type="text"],
 select, 
 textarea{
     padding: 10px;
