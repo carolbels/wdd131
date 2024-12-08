@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.7em 0;
+    text-align: center;
+}
+
+header{
+    padding: 8px 2%;
+    color: white;
+    background-color: #403535;
+}
+
+main {
+    background-color: rgb(245, 241, 241);
+    padding: 0 2%;
+    max-width: 600px;
+    margin: auto;
+    min-height: 20rem;
+    font-size: 16px;
+}
+
+fieldset {
+    margin: 2rem 0;
+    border: none;
+}
+
+legend {
+    padding:0 .5rem;
+}
+
+label[for="productName"], 
+label[for="installDate"], 
+label[for="writtenReview"], 
+label[for="userName"]{
+    padding:0 .5rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+label[for="productName"]{
+    margin-top: 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+  
+.rating label {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+  
+form input[type="date"],
+select, 
+textarea{
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 2%;
+    min-height: 48px;
+    font-size: 16px;
+    color: rgb(89, 85, 85);
+}
+form input[type="checkbox"] {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+  
+form label {
+    display: flex;
+    align-items: center; 
+    gap: 2px; 
+    font-size: 16px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"]{
+    margin:0 2%;
+}
+
+form input[type="submit"]{
+    background-color: #d0d1d2;
+    font-size: 1.5rem;
+    border: solid rgba(129, 128, 128, 0.389);
+    padding: 10px 15px;
+    margin: 0 4%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    min-height: 48px;
+    width: 100%;
+    max-width: 400px;
+}
+  
+input[type="submit"]:hover {
+    background-color: #acecf1ac;
+}
+
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+    margin-top: 10px;
+}
