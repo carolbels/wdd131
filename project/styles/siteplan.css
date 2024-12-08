@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(31, 80, 154); 
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(227, 142, 73);
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: rgb(31, 80, 154); /* Navy */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+h2:first-of-type {
+    margin-top: 60px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.color-schema {
+    font-weight: bold;
+    color: rgb(31, 80, 154); /* Navy */
+}
+
+.color-example {
+    color: rgb(227, 142, 73); /* Orange */
+}
+
+.typography {
+    color: rgb(31, 80, 154); /* Navy */
+}
+
+
+h2:last-of-type {
+    margin-top: 60px;
+}
+
+h2, p {
+    margin-bottom: 30px;
+}
