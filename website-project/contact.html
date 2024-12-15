@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data-Driven Rewards</title>
+    <meta name="description" content="A page about a passionate Compensation and Data Science Professional">
+    <meta name="author" content="Carol Aquino">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/small-layout.css">    
+    <link rel="stylesheet" href="styles/big-layout.css" media="screen and (min-width: 800px)">
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" aria-label="Toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>    
+                </ul>
+            </div>    
+        </nav>
+    </header>
+    <main>
+        <div class="contact-form-container">
+            <h1>Contact Me</h1>
+            <form action="#" method="post" id="contact-form">
+                <label for="name">Your Name*:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+                <label for="email">Your Email*:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+                <label for="message">Your Message*:</label>
+                <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
+            
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-feedback">
+                Thank you! Your message has been submitted.
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> &#128105; Carolina Aquino &#128105; USA</p>
+        <p>Last modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>

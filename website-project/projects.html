@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <meta name="description" content="this page showcases some projects Jackson Aquino developed">
+    <meta name="author" content="Carol Aquino">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/small-layout.css">    
+    <link rel="stylesheet" href="styles/big-layout.css" media="screen and (min-width: 800px)">
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" aria-label="Toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>    
+                </ul>
+            </div>    
+        </nav>
+    </header>
+    <main>
+        <h1>My Projects</h1>
+        <section>
+            <div class="project-text">
+                <h2>Compa-Ratio Catch-Up</h2>
+                <p>This tool iterates through an employee roster to spend budget on the lowest paid employees through the compa-ratio catch-up method. 
+                    Coded in VBA, runs in Excel through a form.</p>
+                <div class="gitbutton">    
+                    <button class="github-button" onclick="window.open('https://github.com/jacksoncaquino/Compa-Ratio-Catch-Up', '_blank');">View on GitHub</button>
+                </div>
+            </div>
+            <div class="project-pic">
+                <img src="images/compa-ration.webp" alt="a screenshot of the compa-ratio catch-up" width="400" height="300" loading="lazy"> 
+            </div>
+        </section>
+        
+        <section>
+            <div class="project-text">
+                <h2>Midpoint-Prediction-Tool</h2>
+                <p>One of the processes that used to take a great deal of time daily from our work schedules in the Compensation team was pricing jobs whenever a manager, 
+                    an HR Business Partner, or a Talent Acquisition partner logged a case to have a job activated for a new location (we're in many countries). The first time 
+                    I priced a job I had to open several different Excel reports, filter to get the data I needed, populate a template, and then start thinking and making my pricing decisions. 
+                    Each job would take us about 20 minutes and the reports were massive, which would add to the time while Excel would freeze multiple times during the process. 
+                    I developed a tool using VBA, Python, and XML for the graphical user interface to automate this, and as a result, we have a more streamlined process 
+                    that takes less than 2 minutes per job.</p>
+                <div class="gitbutton">
+                    <button class="github-button" onclick="window.open('https://github.com/jacksoncaquino/Midpoint-Prediction-Tool?tab=readme-ov-file', '_blank');">View on GitHub</button>
+                </div>
+            </div>
+            <div class="project-pic">
+                <img src="images/midpoint.webp" alt="a screenshot of the Midpoint-Prediction-Tool" width="400" height="300" loading="lazy">
+            </div>
+        </section>
+        
+        <section>
+            <div class="project-text">
+                <h2>Progression Outliers Check</h2>
+                <p>Auditing the current compensation structure to spot possible errors in compensation range progression to see if anything is too high or too low. 
+                    We added this as a systematic audit for our annual market study to improve the quality and consistency of our pay ranges. 
+                    Coded in Python with Jupyter Notebooks.</p>
+                    <div class="gitbutton">
+                        <button class="github-button" onclick="window.open('https://github.com/jacksoncaquino/Progression-Outliers-Check?tab=readme-ov-file', '_blank');">View on GitHub</button>
+                    </div>
+            </div>
+            <div class="project-pic">
+                <img src="images/progession.webp" alt="a screenshot of the progression outliers" width="400" height="300" loading="lazy">    
+            </div>
+        </section>   
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> &#128105; Carolina Aquino &#128105; USA</p>
+        <p>Last modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
