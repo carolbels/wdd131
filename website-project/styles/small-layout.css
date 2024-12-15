@@ -1,7 +1,7 @@
 :root {
     --color1: rgb(31, 80, 154);
     --color2: rgb(227, 142, 73);
-    --color3:rgb(31, 80, 154, 0.5);
+    --color3: rgb(31, 80, 154, 0.5);
     --color4: rgb(227, 142, 73, 0.7);
 }
 
@@ -230,7 +230,7 @@ input:focus, textarea:focus {
 }
 
 button {
-    background-color:var(--color2); /* Matches your secondary color */
+    background-color:var(--color2); 
     font-weight: bold;
     font-size: 1.5rem;
     cursor: pointer;
